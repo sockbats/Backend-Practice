@@ -1,0 +1,232 @@
+[
+  {
+    "name": "All Survivors",
+    "image": "https://deadbydaylight.wiki.gg/images/b/b3/IconHelpLoading_survivor.png",
+    "survivor_id": 0
+  },
+  {
+    "name": "Dwight Fairfield",
+    "image": "https://deadbydaylight.wiki.gg/images/3/3d/S01_DwightFairfield_Portrait.png?d6dcf3",
+    "survivor_id": 1
+  },
+  {
+    "name": "Meg Thomas",
+    "image": "https://deadbydaylight.wiki.gg/images/3/35/S02_MegThomas_Portrait.png?7eab9a",
+    "survivor_id": 2
+  },
+  {
+    "name": "Claudette Morel",
+    "image": "https://deadbydaylight.wiki.gg/images/c/c2/S03_ClaudetteMorel_Portrait.png?5063f0",
+    "survivor_id": 3
+  },
+  {
+    "name": "Jake Park",
+    "image": "https://deadbydaylight.wiki.gg/images/1/18/S04_JakePark_Portrait.png?f66ca9",
+    "survivor_id": 4
+  },
+  {
+    "name": "Nea Karlsson",
+    "image": "https://deadbydaylight.wiki.gg/images/e/e6/S05_NeaKarlsson_Portrait.png?7ab379",
+    "survivor_id": 5
+  },
+  {
+    "name": "Laurie Strode",
+    "image": "https://deadbydaylight.wiki.gg/images/0/04/S06_LaurieStrode_Portrait.png?cb4f55",
+    "survivor_id": 6
+  },
+  {
+    "name": "Ace Visconti",
+    "image": "https://deadbydaylight.wiki.gg/images/b/b9/S07_AceVisconti_Portrait.png?78a415",
+    "survivor_id": 7
+  },
+  {
+    "name": "Bill Overbeck",
+    "image": "https://deadbydaylight.wiki.gg/images/9/9c/S08_BillOverbeck_Portrait.png?ea4263",
+    "survivor_id": 8
+  },
+  {
+    "name": "Feng Min",
+    "image": "https://deadbydaylight.wiki.gg/images/a/a3/S09_FengMin_Portrait.png?4858fc",
+    "survivor_id": 9
+  },
+  {
+    "name": "David King",
+    "image": "https://deadbydaylight.wiki.gg/images/2/2a/S10_DavidKing_Portrait.png?6e4e99",
+    "survivor_id": 10
+  },
+  {
+    "name": "Quentin Smith",
+    "image": "https://deadbydaylight.wiki.gg/images/4/40/S11_QuentinSmith_Portrait.png?61f716",
+    "survivor_id": 11
+  },
+  {
+    "name": "David Tapp",
+    "image": "https://deadbydaylight.wiki.gg/images/d/d2/S12_DavidTapp_Portrait.png?451c59",
+    "survivor_id": 12
+  },
+  {
+    "name": "Kate Denson",
+    "image": "https://deadbydaylight.wiki.gg/images/9/9c/S13_KateDenson_Portrait.png?1d9a18",
+    "survivor_id": 13
+  },
+  {
+    "name": "Adam Francis",
+    "image": "https://deadbydaylight.wiki.gg/images/a/a5/S14_AdamFrancis_Portrait.png?41f88f",
+    "survivor_id": 14
+  },
+  {
+    "name": "Jeff Johansen",
+    "image": "https://deadbydaylight.wiki.gg/images/8/81/S15_JeffJohansen_Portrait.png?d2bdb8",
+    "survivor_id": 15
+  },
+  {
+    "name": "Jane Romero",
+    "image": "https://deadbydaylight.wiki.gg/images/8/80/S16_JaneRomero_Portrait.png?e2acd3",
+    "survivor_id": 16
+  },
+  {
+    "name": "Ash Williams",
+    "image": "https://deadbydaylight.wiki.gg/images/9/91/S17_AshWilliams_Portrait.png?ece61f",
+    "survivor_id": 17
+  },
+  {
+    "name": "Nancy Wheeler",
+    "image": "https://deadbydaylight.wiki.gg/images/7/70/S18_NancyWheeler_Portrait.png?adfa54",
+    "survivor_id": 18
+  },
+  {
+    "name": "Steve Harrington",
+    "image": "https://deadbydaylight.wiki.gg/images/e/e8/S19_SteveHarrington_Portrait.png?9a11aa",
+    "survivor_id": 19
+  },
+  {
+    "name": "Yui Kimura",
+    "image": "https://deadbydaylight.wiki.gg/images/1/13/S20_YuiKimura_Portrait.png?830cf2",
+    "survivor_id": 20
+  },
+  {
+    "name": "Zarina Kassir",
+    "image": "https://deadbydaylight.wiki.gg/images/d/d9/S21_ZarinaKassir_Portrait.png?9ff369",
+    "survivor_id": 21
+  },
+  {
+    "name": "Cheryl Mason",
+    "image": "https://deadbydaylight.wiki.gg/images/1/1d/S22_CherylMason_Portrait.png?50c77e",
+    "survivor_id": 22
+  },
+  {
+    "name": "Felix Richter",
+    "image": "https://deadbydaylight.wiki.gg/images/9/9e/S23_FelixRichter_Portrait.png?39eafa",
+    "survivor_id": 23
+  },
+  {
+    "name": "\u00c9lodie Rakoto",
+    "image": "https://deadbydaylight.wiki.gg/images/d/de/S24_ElodieRakoto_Portrait.png?6be1d2",
+    "survivor_id": 24
+  },
+  {
+    "name": "Yun-Jin Lee",
+    "image": "https://deadbydaylight.wiki.gg/images/f/f7/S25_Yun-JinLee_Portrait.png?1d1ab0",
+    "survivor_id": 25
+  },
+  {
+    "name": "Jill Valentine",
+    "image": "https://deadbydaylight.wiki.gg/images/d/db/S26_JillValentine_Portrait.png?5e137b",
+    "survivor_id": 26
+  },
+  {
+    "name": "Leon Scott Kennedy",
+    "image": "https://deadbydaylight.wiki.gg/images/7/7d/S27_LeonScottKennedy_Portrait.png?5f9ae0",
+    "survivor_id": 27
+  },
+  {
+    "name": "Mikaela Reid",
+    "image": "https://deadbydaylight.wiki.gg/images/3/3f/S28_MikaelaReid_Portrait.png?f67900",
+    "survivor_id": 28
+  },
+  {
+    "name": "Jonah Vasquez",
+    "image": "https://deadbydaylight.wiki.gg/images/3/37/S29_JonahVasquez_Portrait.png?d4931a",
+    "survivor_id": 29
+  },
+  {
+    "name": "Yoichi Asakawa",
+    "image": "https://deadbydaylight.wiki.gg/images/a/af/S30_YoichiAsakawa_Portrait.png?9d121b",
+    "survivor_id": 30
+  },
+  {
+    "name": "Haddie Kaur",
+    "image": "https://deadbydaylight.wiki.gg/images/e/e7/S31_HaddieKaur_Portrait.png?f3b1ae",
+    "survivor_id": 31
+  },
+  {
+    "name": "Ada Wong",
+    "image": "https://deadbydaylight.wiki.gg/images/5/5e/S32_AdaWong_Portrait.png?1073d0",
+    "survivor_id": 32
+  },
+  {
+    "name": "Rebecca Chambers",
+    "image": "https://deadbydaylight.wiki.gg/images/f/fd/S33_RebeccaChambers_Portrait.png?d5461f",
+    "survivor_id": 33
+  },
+  {
+    "name": "Vittorio Toscano",
+    "image": "https://deadbydaylight.wiki.gg/images/3/39/S34_VittorioToscano_Portrait.png?273309",
+    "survivor_id": 34
+  },
+  {
+    "name": "Thalita Lyra",
+    "image": "https://deadbydaylight.wiki.gg/images/9/96/S35_ThalitaLyra_Portrait.png?fcbd38",
+    "survivor_id": 35
+  },
+  {
+    "name": "Renato Lyra",
+    "image": "https://deadbydaylight.wiki.gg/images/6/69/S36_RenatoLyra_Portrait.png?d20521",
+    "survivor_id": 36
+  },
+  {
+    "name": "Gabriel Soma",
+    "image": "https://deadbydaylight.wiki.gg/images/6/64/S37_GabrielSoma_Portrait.png?44827f",
+    "survivor_id": 37
+  },
+  {
+    "name": "Nicolas Cage",
+    "image": "https://deadbydaylight.wiki.gg/images/b/b7/S38_NicolasCage_Portrait.png?756bb9",
+    "survivor_id": 38
+  },
+  {
+    "name": "Ellen Ripley",
+    "image": "https://deadbydaylight.wiki.gg/images/1/15/S39_EllenRipley_Portrait.png?9966b6",
+    "survivor_id": 39
+  },
+  {
+    "name": "Alan Wake",
+    "image": "https://deadbydaylight.wiki.gg/images/4/43/S40_AlanWake_Portrait.png?600f97",
+    "survivor_id": 40
+  },
+  {
+    "name": "Sable Ward",
+    "image": "https://deadbydaylight.wiki.gg/images/9/9c/S41_SableWard_Portrait.png?78936e",
+    "survivor_id": 41
+  },
+  {
+    "name": "Aestri Yazar",
+    "image": "https://deadbydaylight.wiki.gg/images/e/e0/S42_TheTroupe_Portrait.png?9f592a",
+    "survivor_id": 42
+  },
+  {
+    "name": "Lara Croft",
+    "image": "https://deadbydaylight.wiki.gg/images/6/63/S43_LaraCroft_Portrait.png?1e338f",
+    "survivor_id": 43
+  },
+  {
+    "name": "Trevor Belmont",
+    "image": "https://deadbydaylight.wiki.gg/images/f/f8/S44_TrevorBelmont_Portrait.png?f68391",
+    "survivor_id": 44
+  },
+  {
+    "name": "Taurie Cain",
+    "image": "https://deadbydaylight.wiki.gg/images/7/72/S45_TaurieCain_Portrait.png?44fce2",
+    "survivor_id": 45
+  }
+]

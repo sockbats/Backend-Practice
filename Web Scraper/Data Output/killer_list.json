@@ -1,0 +1,242 @@
+[
+  {
+    "name": "All Killers",
+    "image": "https://deadbydaylight.wiki.gg/images/0/06/IconHelpLoading_killer.png",
+    "killer_id": 0,
+    "title": "All Killer"
+  },
+  {
+    "name": "Evan MacMillan",
+    "image": "https://deadbydaylight.wiki.gg/images/8/81/K01_TheTrapper_Portrait.png?564c1d",
+    "killer_id": 1,
+    "title": "The Trapper"
+  },
+  {
+    "name": "Philip Ojomo",
+    "image": "https://deadbydaylight.wiki.gg/images/c/c2/K02_TheWraith_Portrait.png?fbb21b",
+    "killer_id": 2,
+    "title": "The Wraith"
+  },
+  {
+    "name": "Max Thompson Jr.",
+    "image": "https://deadbydaylight.wiki.gg/images/2/24/K03_TheHillbilly_Portrait.png?b1fa3b",
+    "killer_id": 3,
+    "title": "The Hillbilly"
+  },
+  {
+    "name": "Sally Smithson",
+    "image": "https://deadbydaylight.wiki.gg/images/3/3b/K04_TheNurse_Portrait.png?f00131",
+    "killer_id": 4,
+    "title": "The Nurse"
+  },
+  {
+    "name": "Michael Myers",
+    "image": "https://deadbydaylight.wiki.gg/images/b/b5/K05_TheShape_Portrait.png?f9bf22",
+    "killer_id": 5,
+    "title": "The Shape"
+  },
+  {
+    "name": "Lisa Sherwood",
+    "image": "https://deadbydaylight.wiki.gg/images/c/c7/K06_TheHag_Portrait.png?60f88f",
+    "killer_id": 6,
+    "title": "The Hag"
+  },
+  {
+    "name": "Herman Carter",
+    "image": "https://deadbydaylight.wiki.gg/images/5/58/K07_TheDoctor_Portrait.png?9b025f",
+    "killer_id": 7,
+    "title": "The Doctor"
+  },
+  {
+    "name": "Anna",
+    "image": "https://deadbydaylight.wiki.gg/images/f/f1/K08_TheHuntress_Portrait.png?194544",
+    "killer_id": 8,
+    "title": "The Huntress"
+  },
+  {
+    "name": "Bubba Sawyer",
+    "image": "https://deadbydaylight.wiki.gg/images/6/6f/K09_TheCannibal_Portrait.png?2b9b38",
+    "killer_id": 9,
+    "title": "The Cannibal"
+  },
+  {
+    "name": "Freddy Krueger",
+    "image": "https://deadbydaylight.wiki.gg/images/d/d5/K10_TheNightmare_Portrait.png?8dfa33",
+    "killer_id": 10,
+    "title": "The Nightmare"
+  },
+  {
+    "name": "Amanda Young",
+    "image": "https://deadbydaylight.wiki.gg/images/5/5c/K11_ThePig_Portrait.png?893de3",
+    "killer_id": 11,
+    "title": "The Pig"
+  },
+  {
+    "name": "Jeffrey Hawk",
+    "image": "https://deadbydaylight.wiki.gg/images/d/d1/K12_TheClown_Portrait.png?26bd2a",
+    "killer_id": 12,
+    "title": "The Clown"
+  },
+  {
+    "name": "Rin Yamaoka",
+    "image": "https://deadbydaylight.wiki.gg/images/f/f1/K13_TheSpirit_Portrait.png?c6efeb",
+    "killer_id": 13,
+    "title": "The Spirit"
+  },
+  {
+    "name": "Frank, Julie, Susie, Joey",
+    "image": "https://deadbydaylight.wiki.gg/images/5/53/K14_TheLegion_Portrait.png?f9a179",
+    "killer_id": 14,
+    "title": "The Legion"
+  },
+  {
+    "name": "Adiris",
+    "image": "https://deadbydaylight.wiki.gg/images/f/fe/K15_ThePlague_Portrait.png?e5926a",
+    "killer_id": 15,
+    "title": "The Plague"
+  },
+  {
+    "name": "Danny Johnson",
+    "image": "https://deadbydaylight.wiki.gg/images/d/d1/K16_TheGhostFace_Portrait.png?5a4629",
+    "killer_id": 16,
+    "title": "The Ghost Face"
+  },
+  {
+    "name": "Demogorgon",
+    "image": "https://deadbydaylight.wiki.gg/images/7/75/K17_TheDemogorgon_Portrait.png?20c7d0",
+    "killer_id": 17,
+    "title": "The Demogorgon"
+  },
+  {
+    "name": "Kazan Yamaoka",
+    "image": "https://deadbydaylight.wiki.gg/images/8/80/K18_TheOni_Portrait.png?22e37f",
+    "killer_id": 18,
+    "title": "The Oni"
+  },
+  {
+    "name": "Caleb Quinn",
+    "image": "https://deadbydaylight.wiki.gg/images/a/ac/K19_TheDeathslinger_Portrait.png?52fc47",
+    "killer_id": 19,
+    "title": "The Deathslinger"
+  },
+  {
+    "name": "Pyramid Head",
+    "image": "https://deadbydaylight.wiki.gg/images/c/c9/K20_TheExecutioner_Portrait.png?286cd2",
+    "killer_id": 20,
+    "title": "The Executioner"
+  },
+  {
+    "name": "Talbot Grimes",
+    "image": "https://deadbydaylight.wiki.gg/images/1/1f/K21_TheBlight_Portrait.png?bb5b92",
+    "killer_id": 21,
+    "title": "The Blight"
+  },
+  {
+    "name": "Charlotte & Victor Deshayes",
+    "image": "https://deadbydaylight.wiki.gg/images/1/17/K22_TheTwins_Portrait.png?71ef1c",
+    "killer_id": 22,
+    "title": "The Twins"
+  },
+  {
+    "name": "Ji-Woon Hak",
+    "image": "https://deadbydaylight.wiki.gg/images/c/c9/K23_TheTrickster_Portrait.png?e4204c",
+    "killer_id": 23,
+    "title": "The Trickster"
+  },
+  {
+    "name": "Nemesis T-Type",
+    "image": "https://deadbydaylight.wiki.gg/images/6/67/K24_TheNemesis_Portrait.png?891941",
+    "killer_id": 24,
+    "title": "The Nemesis"
+  },
+  {
+    "name": "Elliot Spencer",
+    "image": "https://deadbydaylight.wiki.gg/images/3/3b/K25_TheCenobite_Portrait.png?6b9046",
+    "killer_id": 25,
+    "title": "The Cenobite"
+  },
+  {
+    "name": "Carmina Mora",
+    "image": "https://deadbydaylight.wiki.gg/images/0/01/K26_TheArtist_Portrait.png?594628",
+    "killer_id": 26,
+    "title": "The Artist"
+  },
+  {
+    "name": "Sadako Yamamura",
+    "image": "https://deadbydaylight.wiki.gg/images/5/5f/K27_TheOnryo_Portrait.png?50d2b8",
+    "killer_id": 27,
+    "title": "The Onry\u014d"
+  },
+  {
+    "name": "Dredge",
+    "image": "https://deadbydaylight.wiki.gg/images/7/7e/K28_TheDredge_Portrait.png?66319e",
+    "killer_id": 28,
+    "title": "The Dredge"
+  },
+  {
+    "name": "Albert Wesker",
+    "image": "https://deadbydaylight.wiki.gg/images/e/ec/K29_TheMastermind_Portrait.png?84582c",
+    "killer_id": 29,
+    "title": "The Mastermind"
+  },
+  {
+    "name": "Tarhos Kov\u00e1cs",
+    "image": "https://deadbydaylight.wiki.gg/images/6/69/K30_TheKnight_Portrait.png?b89c9d",
+    "killer_id": 30,
+    "title": "The Knight"
+  },
+  {
+    "name": "Adriana Imai",
+    "image": "https://deadbydaylight.wiki.gg/images/6/64/K31_TheSkullMerchant_Portrait.png?91edf3",
+    "killer_id": 31,
+    "title": "The Skull Merchant"
+  },
+  {
+    "name": "HUX-A7-13",
+    "image": "https://deadbydaylight.wiki.gg/images/2/24/K32_TheSingularity_Portrait.png?3d6300",
+    "killer_id": 32,
+    "title": "The Singularity"
+  },
+  {
+    "name": "Xenomorph",
+    "image": "https://deadbydaylight.wiki.gg/images/6/64/K33_TheXenomorph_Portrait.png?17ff7e",
+    "killer_id": 33,
+    "title": "The Xenomorph"
+  },
+  {
+    "name": "Charles Lee Ray",
+    "image": "https://deadbydaylight.wiki.gg/images/8/81/K34_TheGoodGuy_Portrait.png?4dc7a9",
+    "killer_id": 34,
+    "title": "The Good Guy"
+  },
+  {
+    "name": "Unknown",
+    "image": "https://deadbydaylight.wiki.gg/images/5/51/K35_TheUnknown_Portrait.png?88bbed",
+    "killer_id": 35,
+    "title": "The Unknown"
+  },
+  {
+    "name": "Vecna",
+    "image": "https://deadbydaylight.wiki.gg/images/f/f0/K36_TheLich_Portrait.png?25df98",
+    "killer_id": 36,
+    "title": "The Lich"
+  },
+  {
+    "name": "Dracula",
+    "image": "https://deadbydaylight.wiki.gg/images/6/62/K37_TheDarkLord_Portrait.png?d391a7",
+    "killer_id": 37,
+    "title": "The Dark Lord"
+  },
+  {
+    "name": "Portia Maye",
+    "image": "https://deadbydaylight.wiki.gg/images/9/96/K38_TheHoundmaster_Portrait.png?6e438f",
+    "killer_id": 38,
+    "title": "The Houndmaster"
+  },
+  {
+    "name": "Ken Kaneki",
+    "image": "https://deadbydaylight.wiki.gg/images/c/c9/K39_TheGhoul_Portrait.png?fbb95c",
+    "killer_id": 39,
+    "title": "The Ghoul"
+  }
+]
