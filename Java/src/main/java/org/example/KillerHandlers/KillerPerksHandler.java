@@ -1,16 +1,17 @@
-package SurvivorHandlers;
+package org.example.KillerHandlers;
 
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
+
 import java.io.IOException;
 import java.io.OutputStream;
 
 
-public class SurvivorsHandler implements HttpHandler {
+public class KillerPerksHandler implements HttpHandler {
     @Override
     public void handle(HttpExchange request) throws IOException {
         var method = request.getRequestMethod();
-        System.out.printf("Handling Killer Perk %s request\n", method);
+        System.out.printf("Handling Survivors %s request\n", method);
 
         byte[] response;
         OutputStream os = request.getResponseBody();

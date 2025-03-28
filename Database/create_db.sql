@@ -1,19 +1,21 @@
-drop table if exists killers;
-drop table if exists survivors;
 drop table if exists killer_perks;
 drop table if exists survivor_perks;
+drop table if exists killers;
+drop table if exists survivors;
 
 create table killers (
-    killer_id int primary key,
+    killer_id int,
     name      text,
     title     text,
-    image     text
+    image     text,
+    primary key (killer_id)
 );
 
 create table survivors (
-    survivor_id int primary key,
+    survivor_id int,
     name        text,
-    image       text
+    image       text,
+    primary key (survivor_id)
 );
 
 create table killer_perks (
@@ -35,3 +37,5 @@ create table survivor_perks (
     primary key (perk_id),
     foreign key (survivor_id) references survivors (survivor_id)
 );
+
+INSERT INTO killers VALUE (0, '', '', '');
