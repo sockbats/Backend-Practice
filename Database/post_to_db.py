@@ -15,22 +15,22 @@ def main():
         if response.status_code != 200:
             print(f"Error: {response.status_code} on killer {killer.get("name")}")
 
-    # for survivor in survivors:
-    #     response = post(backend_url + "/api/survivors", json=survivor)
-    #     if response.status_code != 200:
-    #         print(f"Error: {response.status_code} on survivor {survivor.get("name")}")
-    #
-    # for perk in killer_perks:
-    #     perk.pop("killer_title")
-    #     response = post(backend_url + "/api/killer_perks", json=perk)
-    #     if response.status_code != 200:
-    #         print(f"Error: {response.status_code} on killer perk {perk.get("name")}")
-    #
-    # for perk in survivor_perks:
-    #     perk.pop("survivor_name")
-    #     response = post(backend_url + "/api/survivor_perks", json=perk)
-    #     if response.status_code != 200:
-    #         print(f"Error: {response.status_code} on survivor perk {perk.get("name")}")
+    for perk in killer_perks:
+        perk.pop("killer_title")
+        response = post(backend_url + "/api/killer_perks", json=perk)
+        if response.status_code != 200:
+            print(f"Error: {response.status_code} on killer perk {perk.get("name")}")
+
+    for survivor in survivors:
+        response = post(backend_url + "/api/survivors", json=survivor)
+        if response.status_code != 200:
+            print(f"Error: {response.status_code} on survivor {survivor.get("name")}")
+
+    for perk in survivor_perks:
+        perk.pop("survivor_name")
+        response = post(backend_url + "/api/survivor_perks", json=perk)
+        if response.status_code != 200:
+            print(f"Error: {response.status_code} on survivor perk {perk.get("name")}")
 
 
 if __name__ == '__main__':

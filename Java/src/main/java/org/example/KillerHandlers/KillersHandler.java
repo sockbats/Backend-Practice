@@ -203,7 +203,7 @@ public class KillersHandler implements HttpHandler {
                     int lines_affected = statement.executeUpdate(query);
                     statement.close();
 
-                    response = (lines_affected + " lines affected.").getBytes();
+                    response = (lines_affected + " line(s) updated.").getBytes();
                     request.sendResponseHeaders(200, response.length);
                     os.write(response);
                     os.close();
@@ -244,7 +244,7 @@ public class KillersHandler implements HttpHandler {
                     int lines_affected = statement.executeUpdate(query);
                     statement.close();
 
-                    response = (lines_affected + " lines affected.").getBytes();
+                    response = (lines_affected + " line(s) deleted.").getBytes();
                     request.sendResponseHeaders(200, response.length);
                     os.write(response);
                     os.close();
@@ -263,7 +263,7 @@ public class KillersHandler implements HttpHandler {
                 }
                 break;
             default:
-                return;
+
         }
     }
 }

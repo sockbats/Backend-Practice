@@ -13,8 +13,8 @@ public class Main {
 
         HttpServer server = HttpServer.create(new InetSocketAddress(8000), 0);
         server.createContext("/api/killers", new KillersHandler());
-        server.createContext("/api/survivors", new KillerPerksHandler());
-        server.createContext("/api/killer_perks", new SurvivorsHandler());
+        server.createContext("/api/killer_perks", new KillerPerksHandler());
+        server.createContext("/api/survivors", new SurvivorsHandler());
         server.createContext("/api/survivor_perks", new SurvivorPerksHandler());
         server.setExecutor(null);
         server.start();
