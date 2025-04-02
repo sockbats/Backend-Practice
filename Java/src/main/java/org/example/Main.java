@@ -3,8 +3,11 @@ package org.example;
 import com.sun.net.httpserver.HttpServer;
 import java.io.IOException;
 import java.net.InetSocketAddress;
-import org.example.KillerHandlers.*;
-import org.example.SurvivorHandlers.*;
+
+import org.example.Handlers.KillerPerksHandler;
+import org.example.Handlers.KillersHandler;
+import org.example.Handlers.SurvivorPerksHandler;
+import org.example.Handlers.SurvivorsHandler;
 
 
 public class Main {
