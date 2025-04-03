@@ -20,6 +20,7 @@ public class DatabaseConnection {
     private static final int SSH_PORT;
     private static final String SSH_USER;
     private static final String SSH_KEY_FILE;
+
     private static final String DATABASE_URL;
     private static final int DATABASE_PORT;
     private static final String DATABASE_USER;
@@ -28,8 +29,8 @@ public class DatabaseConnection {
 
     public static final int LOCAL_PORT = 3307;
 
-    public static final Session session;
-    public static final HikariDataSource dataSource;
+    public static Session session = null;
+    public static HikariDataSource dataSource = null;
 
     static {
         try {
@@ -48,20 +49,27 @@ public class DatabaseConnection {
         DATABASE_USER = jsonConfig.getString("DATABASE_USER");
         DATABASE_PASSWORD = jsonConfig.getString("DATABASE_PASSWORD");
         DATABASE_NAME = jsonConfig.getString("DATABASE_NAME");
+    }
 
-        try {
-            JSch jsch = new JSch();
-            jsch.addIdentity(SSH_KEY_FILE);
-            session = jsch.getSession(SSH_USER, SSH_URL, SSH_PORT);
-            session.setConfig("StrictHostKeyChecking", "no");
-            session.connect();
+    public static void connect_to_database(boolean ssh) {
+        String jdbcUrl;
+        if (ssh) {
+            try {
+                JSch jsch = new JSch();
+                jsch.addIdentity(SSH_KEY_FILE);
+                session = jsch.getSession(SSH_USER, SSH_URL, SSH_PORT);
+                session.setConfig("StrictHostKeyChecking", "no");
+                session.connect();
 
-            session.setPortForwardingL(LOCAL_PORT, DATABASE_URL, DATABASE_PORT);
-            System.out.println("SSH Tunnel established...");
-        } catch (JSchException e) {
-            throw new RuntimeException(e);
+                session.setPortForwardingL(LOCAL_PORT, DATABASE_URL, DATABASE_PORT);
+                System.out.println("SSH Tunnel established...");
+            } catch (JSchException e) {
+                throw new RuntimeException(e);
+            }
+            jdbcUrl = "jdbc:mysql://localhost:" + LOCAL_PORT + "/" + DATABASE_NAME;
+        } else {
+            jdbcUrl = "jdbc:mysql://" + DATABASE_URL + DATABASE_PORT;
         }
-        String jdbcUrl = "jdbc:mysql://localhost:" + LOCAL_PORT + "/" + DATABASE_NAME;
 
         HikariConfig config = new HikariConfig();
         config.setJdbcUrl(jdbcUrl);
