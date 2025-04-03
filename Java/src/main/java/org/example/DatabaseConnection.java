@@ -68,7 +68,7 @@ public class DatabaseConnection {
             }
             jdbcUrl = "jdbc:mysql://localhost:" + LOCAL_PORT + "/" + DATABASE_NAME;
         } else {
-            jdbcUrl = "jdbc:mysql://" + DATABASE_URL + DATABASE_PORT;
+            jdbcUrl = "jdbc:mysql://" + DATABASE_URL + ":" + DATABASE_PORT + "/" + DATABASE_NAME;
         }
 
         HikariConfig config = new HikariConfig();
